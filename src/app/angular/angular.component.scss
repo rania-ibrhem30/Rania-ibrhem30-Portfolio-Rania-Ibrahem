@@ -1,0 +1,54 @@
+.bg-black{
+    background-color: black;
+}
+.box-silder{
+    border:1px solid #ffff1c;
+    
+}
+.box-text{
+    border:px solid;
+
+
+}
+h3{
+    color:white;
+}
+.btn-bank{
+    background: #d71c89;
+    color: white;
+}
+
+.btn-link{
+    background: linear-gradient(
+        to right,
+        #00c3ff,
+        #ffff1c,);
+        height: 40px;
+        width: 50px;
+        background-repeat: no-repeat;
+    
+}
+i{
+    color: black;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+i:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+ [data-bs-slide]{
+    color: #d71c89;
+}
+#nav-home-tab ,#nav-profile-tab,#nav-contact-tab{
+   color: white;
+}
+li{
+    cursor: pointer;
+}

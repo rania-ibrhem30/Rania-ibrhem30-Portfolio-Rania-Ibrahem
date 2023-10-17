@@ -1,0 +1,49 @@
+.line {
+    background: #00c3ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ffff1c,
+      #00c3ff
+    );
+    background: linear-gradient(
+        to right,
+        #ffff1c,
+        #00c3ff
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      height: 2px;
+      width: 160px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .bg-contact{
+        background-color: black;
+        color: white;
+    }
+    input ,textarea{
+      border-bottom:4px solid ;
+      outline:#00c3ff 2px ;
+      height: 40px;
+      width: 75%;
+      color: rgb(253, 253, 9);
+      border-radius: 12px;
+      background-color:black;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+}
+    :focus{
+      outline: #daff08;
+      background-color: black;
+    }
+   .btn-send-mag{
+    background: linear-gradient(      to right,      #ffff1c,      #00c3ff    );
+    height: 50px;
+    width: 150px;
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+}

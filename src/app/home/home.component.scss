@@ -1,0 +1,26 @@
+span{
+    color: #14a800;
+    font-size: 30px;
+    align-items: center;
+}
+.home{
+background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.fa-square-facebook{
+    color: #0a82ec;
+}
+
+.fa-linkedin{
+    color:#0a66c2;
+}
+i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
