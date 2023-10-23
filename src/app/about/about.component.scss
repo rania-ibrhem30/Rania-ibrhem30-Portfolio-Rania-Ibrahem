@@ -1,5 +1,6 @@
 .about-me {
   background-color: black;
+  color: white;
 }
 .line {
   background: #00c3ff; /* fallback for old browsers */
@@ -17,4 +18,10 @@
   width: 120px;
   margin: 0 auto;
   align-items: center;
+}
+.d-flex{
+  justify-content: space-between;
+  align-items: center;
+  display: flex !important;
+  gap: 5px;
 }
