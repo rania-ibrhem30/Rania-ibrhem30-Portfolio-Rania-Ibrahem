@@ -1,51 +1,55 @@
 .line {
-    background: #00c3ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffff1c,
-      #00c3ff
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffff1c,
-      #00c3ff
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00c3ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #ffff1c,
+            #00c3ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+            #ffff1c,
+            #00c3ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 2px;
     width: 160px;
     margin: 0 auto;
     align-items: center;
-  }
-.project{
+}
+
+.project {
     background-color: black;
-}  
-.box-silder{
-    border:1px solid #ffff1c;
-    
 }
-.box-text{
-    border:px solid;
+
+.box-silder {
+    border: 1px solid #ffff1c;
+
+}
+
+.box-text {
+    border: px solid;
 
 
 }
-h3{
-    color:white;
+
+h3 {
+    color: white;
 }
-.btn-bank{
+
+.btn-bank {
     background: #d71c89;
     color: white;
 }
 
-.btn-link{
-    background: linear-gradient(
-        to right,
-        #00c3ff,
-        #ffff1c,);
-        height: 40px;
-        width: 50px;
-        background-repeat: no-repeat;
-    
+.btn-link {
+    background: linear-gradient(to right,
+            #00c3ff,
+            #ffff1c, );
+    height: 40px;
+    width: 50px;
+    background-repeat: no-repeat;
+
 }
-i{
+
+i {
     color: black;
     transition: 0.3s all;
     -webkit-transition: 0.3s all;
@@ -53,19 +57,37 @@ i{
     -ms-transition: 0.3s all;
     -o-transition: 0.3s all;
 }
-i:hover{
+
+i:hover {
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
- [data-bs-slide]{
+
+[data-bs-slide] {
     color: #d71c89;
 }
-#nav-home-tab ,#nav-profile-tab,#nav-contact-tab{
-   color: white;
+
+#nav-home-tab,
+#nav-profile-tab,
+#nav-contact-tab {
+    color: white;
 }
-li{
+
+li {
     cursor: pointer;
+}
+
+.line-2 {
+    background: linear-gradient(to right, #00c3ff, #d71c89, );
+    height: 40px;
+    width: 130px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
